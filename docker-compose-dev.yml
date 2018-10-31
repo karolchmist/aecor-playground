@@ -1,0 +1,8 @@
+version: '2'
+services:
+  cassandra:
+    image: cassandra:latest
+    expose:
+      - "9042"
+    ports:
+      - "9042:9042"
